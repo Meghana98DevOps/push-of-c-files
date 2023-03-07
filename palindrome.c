@@ -8,7 +8,7 @@ int main() {
     
     printf("Enter a string: ");
     fgets(str, 100, stdin); // We use fgets to read the string, as it also reads the newline character
-    
+/*this is syntax*/    
     len = strlen(str);
     
     // Remove the newline character from the string
